@@ -32,6 +32,7 @@ This version uses MistralAI for generating responses and `sentence-transformers`
 - Create an adversarial prompt dataset to benchmark both detectors
 - Study types of hallucinations (semantic, factual, citation, multi-hop)
 - Log false positives and visualize failure modes
+  
 
 ## Tech Stack
 
@@ -40,3 +41,8 @@ This version uses MistralAI for generating responses and `sentence-transformers`
 - `sentence-transformers`
 - `pandas`
 - `matplotlib`
+- FAISS or Haystack (planned)
+
+## Author
+
+Built by [Divyam](https://www.linkedin.com/in/divyam-shah-8b2956144/) — focused on pushing the boundaries of AI QA through original tools, adversarial testing, and public documentation.

@@ -14,19 +14,19 @@ This project is a hands-on experiment in testing large language models (LLMs) fo
 
 ## Example Output
 
-| Prompt | Similarity | Verdict |
-|--------|------------|---------|
-| Describe the 2021 Geneva AI Treaty | 0.81 | Grounded |
-| Neural Shadows by Dr. Kavita Rao | 0.74 | Hallucination |
-| Alan Turing’s 1952 quantum paper | 0.63 | Hallucination |
+| Prompt                                | Similarity | Verdict       |
+|---------------------------------------|------------|---------------|
+| Describe the 2021 Geneva AI Treaty    | 0.81       | Grounded      |
+| Neural Shadows by Dr. Kavita Rao      | 0.74       | Hallucination |
+| Alan Turing’s 1952 quantum paper      | 0.63       | Hallucination |
 
 ## ✅ Sample Verdicts
 
-| Prompt | Verdict | Similarity |
-|--------|---------|------------|
-| Have any governments endorsed AI for legal use? | ✅ Accurate | 0.942 |
-| Can AI generate citations without review? | ⚠️ Corpus Gap | 0.655 |
-| Does AI have negligible environmental impact? | ❌ Hallucination | 0.521 |
+| Prompt                                               | Verdict                  | Similarity |
+|------------------------------------------------------|--------------------------|------------|
+| Have any governments endorsed AI for legal use?      | ✅ Accurate              | 0.942      |
+| Can AI generate citations without review?            | ⚠️ Corpus Gap           | 0.655      |
+| Does AI have negligible environmental impact?        | ❌ Hallucination         | 0.521      |
 
 ## 📚 Corpus Overview
 
@@ -39,25 +39,25 @@ The corpus (`corpus_v1.json`) contains curated and Wikipedia-augmented facts abo
 
 These chunks are used for semantic retrieval and grounding model outputs before verdicts are assigned.
 
-## Key Insight
+## 🔍 Key Insight
 
 Semantic similarity can miss factual errors. For example, a fictional event may score high if the tone matches. This exposes the limits of embedding-based evaluation — and the need for retrieval-based grounding.
 
-## Models Used
+## 🧠 Models Used
 
 - **ChatGPT** (current week) — for generating responses
 - **MistralAI** (previous week) — used in earlier version
 - `sentence-transformers` — for semantic comparison
 - FAISS — for retrieval-based grounding
 
-## Next Steps
+## 🚀 Next Steps
 
 - Expand the corpus with contradiction-ready facts
 - Create an adversarial prompt dataset to benchmark both detectors
 - Log false positives and visualize failure modes
 - Build a Streamlit UI for public testing
 
-## Tech Stack
+## 🧰 Tech Stack
 
 - Python
 - ChatGPT
@@ -67,6 +67,6 @@ Semantic similarity can miss factual errors. For example, a fictional event may 
 - `matplotlib`
 - `faiss-cpu`
 
-## Author
+## 👤 Author
 
 Built by [Divyam](https://www.linkedin.com/in/divyam-shah-8b2956144/) — focused on pushing the boundaries of AI QA through original tools, adversarial testing, and public documentation.

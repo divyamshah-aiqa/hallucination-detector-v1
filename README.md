@@ -66,6 +66,8 @@ Semantic similarity can miss factual errors. For example, a fictional event may 
 - `pandas`
 - `matplotlib`
 - `faiss-cpu`
+- See `hallucination_detector_v2.py` for the latest retrieval-based logic.
+
 
 ## 👤 Author
 

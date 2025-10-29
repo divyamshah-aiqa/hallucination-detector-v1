@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Legal Endorsement",
+    "content": "As of 2025, no government has officially endorsed generative AI for autonomous legal or welfare decisions. Most use it as a support tool with human oversight."
+  },
+  {
+    "title": "International Law",
+    "content": "Generative AI is not regulated by any binding international law. UN and OECD have issued nonbinding ethical guidelines."
+  },
+  {
+    "title": "Citation Reliability",
+    "content": "AI-generated citations are often inaccurate or fabricated. Courts and academic institutions require manual verification."
+  },
+  {
+    "title": "Government Reports",
+    "content": "Generative AI can assist in drafting government reports, but outputs must be reviewed for accuracy and bias."
+  },
+  {
+    "title": "Hallucination Risk",
+    "content": "Hallucinations in generative AI are common and potentially harmful, especially when outputs are used without human review."
+  },
+  {
+    "title": "AI Report Verification",
+    "content": "AI-generated reports cannot be submitted without human verification. They must be reviewed for accuracy, bias, and compliance, as AI outputs are not legally or ethically reliable on their own."
+  },
+  {
+    "title": "UN Position on AI",
+    "content": "The UN has not declared generative AI safe for global deployment. It has issued nonbinding ethical guidelines and called for oversight."
+  },
+  {
+    "title": "AI Protest Movements",
+    "content": "Protests against generative AI are real. Artists, writers, and tech workers in several countries have opposed its misuse and impact on jobs, privacy, and creative rights."
+  },
+  {
+    "title": "Public Trust in AI",
+    "content": "Studies show that welfare recipients are more skeptical of AI-based decisions than the general population. They are less likely to trust automated systems in welfare contexts."
+  }
+]
